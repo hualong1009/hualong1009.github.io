@@ -7,7 +7,7 @@ author:     Hansen Wang
 header-img: img/post-bg-linux.jpg
 catalog: true
 tags:
-    - Linux
+    - Linux，Linux安全
 ---
 
 
@@ -96,3 +96,5 @@ alias rm='rm_mv'
 
 删除的时候的操作：
 [![](https://upload-images.jianshu.io/upload_images/12855778-469a87e2a7d988a5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/460)](https://upload-images.jianshu.io/upload_images/12855778-469a87e2a7d988a5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/460)
+
+> 📌转载请注明来源，版权归作者**[@hualong1009](https://hualong1009.github.io)**所有, 谢谢
