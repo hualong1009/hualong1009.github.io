@@ -7,7 +7,8 @@ author:     Hansen Wang
 header-img: img/post-bg-python_1.jpg
 catalog: true
 tags:
-    - Python, 微信
+    - Python
+    - 微信
 ---
 
 

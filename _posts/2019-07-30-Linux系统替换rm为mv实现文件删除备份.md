@@ -7,7 +7,8 @@ author:     Hansen Wang
 header-img: img/post-bg-linux.jpg
 catalog: true
 tags:
-    - Linux，Linux安全
+    - Linux
+    - Linux安全
 ---
 
 
