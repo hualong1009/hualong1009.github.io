@@ -99,5 +99,17 @@ friends: [
     {
         title: "CAQLove",
         href: "http://www.caqlove.online"
+    },{
+        title: "typora",
+        href: "https://typora.io/"
+    },{
+        title: "CSDN",
+        href: "https://blog.csdn.net/hualong1009"
+    },{
+        title: "IT home",
+        href: "https://www.ithome.com"
+    },{
+        title: "Mobaxterm",
+        href: "https://mobaxterm.mobatek.net"
     }
 ]
