@@ -21,7 +21,7 @@ tags:
 
 ## 程序内容
 
-```Python
+```python
 import itchat, socket, time, optparse, threading
 
 def getarguments():
