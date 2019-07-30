@@ -19,7 +19,7 @@ Linux下command操作，一个迷糊就可能遇到删库跑路的可能，比�
 
 在`/root/.bashrc`中添加如下内容
 
-~~~shell
+```shell
 function rm_mv(){
 	curr_date=$(date +%Y_%m_%d)
 	resp=""
@@ -83,10 +83,12 @@ function rm_mv(){
 	fi
 }
 alias rm='rm_mv'
-~~~
+```
 
 
 
 定义一个新的函数`alias`到原来的系统命令`rm`。当执行`rm`文件的时候会提示用户确认删除，删除成功会有返回。同时`rm -fr`还是可以用的，只是不会提示用户确认。遇到删除相同的文件名的时候，会在文件名后+日期备份。每天会按照日期在/tmp下生成备份文件夹。
+
+<font color=#ed1c24>注意，由于markdown无法正确地显示部分字符code中的`●`是CTRL+v+ESC组合键出来的, UTF-8是\<0x1b\></font>
 
 [![](https://i.loli.net/2019/07/30/5d3fd7e40d52920941.png)](https://i.loli.net/2019/07/30/5d3fd7e40d52920941.png)
