@@ -144,6 +144,12 @@ ln -sf /lib/systemd/system/graphical.target /etc/systemd/system/default.target
 
 这里配置方法是和v6一样的。
 
+## 总结
+
+文字界面多用户模式和图形界面多用户模式自动登陆需执行不同的配置方法，使用于`gnome`的X11图形管理。按照上面的方法，可以很方便的切换用户模式和配置自动登陆。😀
+
+
+
 > 📌转载请注明来源，版权归作者**[@hualong1009](https://hualong1009.github.io)**所有, 谢谢
 
 
