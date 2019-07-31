@@ -11,7 +11,6 @@ tags:
     - Linux安全
 ---
 
-
 ## Linux OS下替换`rm`为`mv`, 防止文件误删
 
 Linux下command操作，一个迷糊就可能遇到删库跑路的可能，比如杀手`rm -fr *`, 这里提供一种方法替换Linux下的`rm`为`mv`, 实现删除文件备份的功能

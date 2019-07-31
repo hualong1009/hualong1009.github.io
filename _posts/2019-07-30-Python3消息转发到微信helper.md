@@ -65,7 +65,11 @@ if __name__ == "__main__":
     main()
 ```
 
-[![](https://i.loli.net/2019/07/30/5d3fe0623e3e621659.jpg)](https://i.loli.net/2019/07/30/5d3fe0623e3e621659.jpg)
+* `getarguments`设置运行时参数，设定host's ip and port
+* `tcplink`设置套接字接收消息并转发给微信端
+* `main`写了微信登陆，其实就是调用`itchat`模块
+
+[![](https://upload-images.jianshu.io/upload_images/12855778-9d78610d1f9c421a.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)](https://upload-images.jianshu.io/upload_images/12855778-9d78610d1f9c421a.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
 
