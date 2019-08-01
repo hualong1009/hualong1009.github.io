@@ -18,6 +18,7 @@ tags:
 ## 前言
 
 RHEL/CentOS有多种系统运行级别，比较常用的多用户模式(3-multi-user mode)和图形界面模式(5-graphical mode),以下为所有的运行模式。
+
 v6-运行级别|v7-对应的目标|定义
 :-:|-|-
 0|poweroff.target|关机
@@ -48,11 +49,11 @@ v6-运行级别|v7-对应的目标|定义
 
 使用命令`vim /etc/init/tty.conf`编辑tty.conf文件，在`exec /sbin/mingetty $TTY`后面添加参数`--autologin root`即表示自动登陆root用户
 
-[![文字界面多用户自动登陆](https://upload-images.jianshu.io/upload_images/12855778-218386ff729ce3f7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)](https://upload-images.jianshu.io/upload_images/12855778-218386ff729ce3f7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+[![文字界面多用户自动登陆](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy8xMjg1NTc3OC0yMTgzODZmZjcyOWNlM2Y3LnBuZw)
 
 此处其实是给`mingetty`命令传递了一个参数进去。如下图是`mingetty`支持的一些参数，更多参数请查看`man page`
 
-[![mingetty参数](https://upload-images.jianshu.io/upload_images/12855778-2fed2e32dbf02c3c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)](https://upload-images.jianshu.io/upload_images/12855778-2fed2e32dbf02c3c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+[![mingetty参数](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy8xMjg1NTc3OC0yZmVkMmUzMmRiZjAyYzNjLnBuZw)
 
 
 ### 4. 图形界面多用户模式用户自动登陆设置
@@ -64,7 +65,7 @@ v6-运行级别|v7-对应的目标|定义
 
 即表示开机后进入图形界面自动登陆root用户
 
-[![图形界面用户自动登陆](https://upload-images.jianshu.io/upload_images/12855778-c95f7be2062e8d77.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)](https://upload-images.jianshu.io/upload_images/12855778-c95f7be2062e8d77.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+[![图形界面用户自动登陆](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy8xMjg1NTc3OC1jOTVmN2JlMjA2MmU4ZDc3LnBuZw)
 
 ## v7运行模式切换以及用户自动登陆
 
@@ -80,7 +81,7 @@ v6-运行级别|v7-对应的目标|定义
 `systemctl set-default multi-user.target` 切换到文字界面多用户模式
 `systemctl set-default graphical.target` 切换到图形界面多用户模式
 
-[![用户模式永久切换](https://upload-images.jianshu.io/upload_images/12855778-e89df658909ebbc1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)](https://upload-images.jianshu.io/upload_images/12855778-e89df658909ebbc1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+[![用户模式永久切换](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy8xMjg1NTc3OC1lODlkZjY1ODkwOWViYmMxLnBuZw)](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy8xMjg1NTc3OC1lODlkZjY1ODkwOWViYmMxLnBuZw)
 
 由上图可以看出，其实在切换过程中，命令相当于执行了一次链接操作，将预设的启动目标链接到`/etc/systemd/system/default.target`。也就是说其实我们是可以通过手动链接启动模式到这个文件来达到相同的效果。
 
@@ -92,7 +93,7 @@ ln -sf /lib/systemd/system/graphical.target /etc/systemd/system/default.target
 
 使用命令`vim /etc/systemd/system/getty.target.wants/getty@tty1.service`编辑`getty@tty1.service`文件，在`Service` group参数`ExecStart=-/sbin/agetty --noclear %I $TERM`后添加`--autologin root`参数来实现自动登陆。
 
-[![文字界面用户自动登陆](https://upload-images.jianshu.io/upload_images/12855778-6622816ca8dae392.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)](https://upload-images.jianshu.io/upload_images/12855778-6622816ca8dae392.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+[![文字界面用户自动登陆]((https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy8xMjg1NTc3OC02NjIyODE2Y2E4ZGFlMzkyLnBuZw)]((https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy8xMjg1NTc3OC02NjIyODE2Y2E4ZGFlMzkyLnBuZw)
 
 这里其实和v6 中给`mingetty`命令传递了一个参数类似，v7中实际是给`agetty`命令传递了一个`--autologin root`的参数，`agetty`用于初始化用户终端，支持丰富的参数。如下
 
