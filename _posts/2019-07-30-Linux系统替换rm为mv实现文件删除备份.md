@@ -101,7 +101,7 @@ alias rm='rm_mv'
 
 **推荐关注博主公众号，获取最新的文章😀**
 
-[![服务器测试与运维](https://img-blog.csdnimg.cn/20190801134803863.jpg)](https://img-blog.csdnimg.cn/20190801134803863.jpg)
+[![服务器测试与运维](https://upload-images.jianshu.io/upload_images/12855778-906c41bb7a5d31e2.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)](https://upload-images.jianshu.io/upload_images/12855778-906c41bb7a5d31e2.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
 > 📌转载请注明来源，版权归作者**[@hualong1009](https://hualong1009.github.io)**所有, 谢谢
