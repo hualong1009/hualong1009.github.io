@@ -13,7 +13,10 @@ tags:
     - CentOS
 ---
 
+[TOC]
+
 ## 前言
+
 RHEL/CentOS有多种系统运行级别，比较常用的多用户模式(3-multi-user mode)和图形界面模式(5-graphical mode),以下为所有的运行模式。
 v6-运行级别|v7-对应的目标|定义
 :-:|-|-
@@ -39,7 +42,7 @@ v6-运行级别|v7-对应的目标|定义
 ### 2. 永久用户模式切换
 
 使用指令`vim /etc/inittab`编辑inittab文件，最后一行`id:5:initdefault`中`id`后面的数字即为开机运行模式，`3`表示文字界面多用户模式，`5`表示图形界面多用户模式，如下图
-[![模式切换](https://upload-images.jianshu.io/upload_images/12855778-3f2a5802a20e984f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)](https://upload-images.jianshu.io/upload_images/12855778-3f2a5802a20e984f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+[![模式切换](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy8xMjg1NTc3OC0zZjJhNTgwMmEyMGU5ODRmLnBuZw)
 
 ### 3. 文字界面多用户模式用户自动登陆设置
 
