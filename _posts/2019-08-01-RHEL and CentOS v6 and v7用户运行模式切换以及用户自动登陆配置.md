@@ -13,7 +13,6 @@ tags:
     - CentOS
 ---
 
-[TOC]
 
 ## 前言
 
