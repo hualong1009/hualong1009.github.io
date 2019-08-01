@@ -92,9 +92,16 @@ alias rm='rm_mv'
 ***注意，由于markdown无法正确地显示部分字符code中的`●`是CTRL+v+ESC组合键出来的, UTF-8是\<0x1b\>***
 
 /tmp为备份文件夹：
-[![](https://i.loli.net/2019/07/30/5d3fd7e40d52920941.png)](https://i.loli.net/2019/07/30/5d3fd7e40d52920941.png)
+[![备份文件夹](https://i.loli.net/2019/07/30/5d3fd7e40d52920941.png)](https://i.loli.net/2019/07/30/5d3fd7e40d52920941.png)
 
 删除的时候的操作：
-[![](https://upload-images.jianshu.io/upload_images/12855778-469a87e2a7d988a5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/460)](https://upload-images.jianshu.io/upload_images/12855778-469a87e2a7d988a5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/460)
+
+[![删除操作](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy8xMjg1NTc3OC00NjlhODdlMmE3ZDk4OGE1LnBuZw)](https://upload-images.jianshu.io/upload_images/12855778-469a87e2a7d988a5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/460)
+
+
+**推荐关注博主公众号，获取最新的文章😀**
+
+[![服务器测试与运维](https://img-blog.csdnimg.cn/20190801134803863.jpg)](https://img-blog.csdnimg.cn/20190801134803863.jpg)
+
 
 > 📌转载请注明来源，版权归作者**[@hualong1009](https://hualong1009.github.io)**所有, 谢谢
