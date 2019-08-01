@@ -72,6 +72,6 @@ if __name__ == "__main__":
 
 **推荐关注博主公众号，获取最新的文章😀**
 
-[![服务器测试与运维](https://img-blog.csdnimg.cn/20190801134803863.jpg)](https://img-blog.csdnimg.cn/20190801134803863.jpg)
+[![服务器测试与运维](https://i.loli.net/2019/08/01/5d42e3a801fb564745.jpg)](https://i.loli.net/2019/08/01/5d42e3a801fb564745.jpg)
 
 > 📌转载请注明来源，版权归作者**[@hualong1009](https://hualong1009.github.io)**所有, 谢谢

@@ -98,10 +98,9 @@ alias rm='rm_mv'
 
 [![删除操作](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy8xMjg1NTc3OC00NjlhODdlMmE3ZDk4OGE1LnBuZw)](https://upload-images.jianshu.io/upload_images/12855778-469a87e2a7d988a5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/460)
 
-
 **推荐关注博主公众号，获取最新的文章😀**
 
-[![服务器测试与运维](https://upload-images.jianshu.io/upload_images/12855778-906c41bb7a5d31e2.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)](https://upload-images.jianshu.io/upload_images/12855778-906c41bb7a5d31e2.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+[![服务器测试与运维](https://i.loli.net/2019/08/01/5d42e3a801fb564745.jpg)](https://i.loli.net/2019/08/01/5d42e3a801fb564745.jpg)
 
 
 > 📌转载请注明来源，版权归作者**[@hualong1009](https://hualong1009.github.io)**所有, 谢谢
