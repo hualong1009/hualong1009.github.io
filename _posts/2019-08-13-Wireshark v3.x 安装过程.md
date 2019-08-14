@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Wireshark v3.x 安装过程
-subtitle:  介绍RHEL/CentOS v7.x 安装Wireshark v3.x详细过程
+subtitle:  介绍RHEL/CentOS v7安装Wireshark v3详细过程
 date:       2019-08-13
 author:     HansenWang
 header-img: img/post-bg-wireshark.jpg
@@ -20,9 +20,9 @@ tags:
 # 准备安装
 
 * 本地或远程YUM源包安装配置
-* Python3最新版安装包，官网获取[Python3官网](https://www.python.org/)
-* CMake最新源码安装包，官网获取[CMake官网](https://cmake.org/download/)
-* libpcap最新的源码安装包，官网获取[TCPDUMP&LiBPCAP官网](https://cmake.org/download/)
+* Python3最新版安装包，官网获取 [Python3官网](https://www.python.org/)
+* CMake最新源码安装包，官网获取 [CMake官网](https://cmake.org/download/)
+* libpcap最新的源码安装包，官网获取 [TCPDUMP&LiBPCAP官网](https://cmake.org/download/)
 * Wireshark最新的源码安装包, 官网获取 [Wireshark官网下载](https://www.wireshark.org/#download)
 
 # 安装步骤
@@ -410,7 +410,7 @@ C编译器安装，推荐下载`cmake-3.15.2-Linux-x86_64.sh`, 可以直接安�
 
 ## libpcap安装
 
-标准的三步走策略，减压->编译->安装，搞定！
+标准的三步走策略，解压->编译->安装，搞定！
 
 ```shell
 tar -xvf tar -xvf /home/Private/Compressed/libpcap-libpcap-1.9.0.tar.gz -C ./
@@ -438,7 +438,13 @@ make && make install
 [![wireshark](https://i.loli.net/2019/08/14/a1Pqe5Nx94W8KQL.png)](https://i.loli.net/2019/08/14/a1Pqe5Nx94W8KQL.png)
 
 然后试着执行`wireshark`，如果顺利打开图形界面，操作都正常，那么恭喜！
+
+[![wireshark_UI](https://i.loli.net/2019/08/14/vCYzTte8EUPrR6f.png)](https://i.loli.net/2019/08/14/vCYzTte8EUPrR6f.png)
+
+
 可以通过执行`wireshark -v`来确认版本。
+
+
 
 # 总结
 
@@ -462,35 +468,11 @@ make && make install
 
 [![缺少Python3](https://i.loli.net/2019/08/14/h2w3lGEPpO4dmvf.png)](https://i.loli.net/2019/08/14/h2w3lGEPpO4dmvf.png)
 
-
-**推荐关注博主公众号，获取最新的文章😀**
+**推荐关注博主公众号，获取最新的文章😀，顺便点个“在看”呗**
 
 [![服务器测试与运维](https://i.loli.net/2019/08/01/5d42e3a801fb564745.jpg)](https://i.loli.net/2019/08/01/5d42e3a801fb564745.jpg)
 
 
 > 📌转载请注明来源，版权归作者**[@hualong1009](https://hualong1009.github.io)**所有, 谢谢
 > 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
